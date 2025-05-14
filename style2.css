@@ -1,0 +1,48 @@
+.img {
+    width: 15%;
+    position: absolute;
+    left: 10px;
+    top: 300px;
+    border-radius: 12px;
+}
+
+.contimg {
+    position: relative;
+}
+
+.big:hover .img {
+    transform: translate(1300px);
+    width: 39%;
+    transition: 0.4s;
+    top: 200px;
+}
+
+.big {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.text {
+    background-color: rgb(141, 124, 105);
+    width: 30%;
+    font-size: 30px;
+    top: 100px;
+    position: absolute;
+    left: 300px;
+    padding: 10px;
+    border-radius: 12px;
+    opacity: 0;
+}
+
+.big:hover .text {
+    opacity: 1;
+    transform: translate(0, 100px);
+    transition: 0.4s;
+}
+
+body {
+    background-color: rgb(201, 192, 154);
+}
