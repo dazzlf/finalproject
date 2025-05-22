@@ -1,40 +1,34 @@
 .img {
     width: 15%;
-    position: absolute;
-    left: 10px;
-    top: 300px;
     border-radius: 12px;
+    transform: translate(0, -363%);
 }
 
-.contimg {
-    position: relative;
+body {
+    height: 100%;
 }
 
 .big:hover .img {
-    transform: translate(1150px);
+    transform: translate(115%, -133%);
     width: 43%;
     transition: 0.4s;
-    top: 170px;
 }
 
 .big {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
 }
 
 .text {
     background-color: rgb(141, 124, 105);
     width: 30%;
     font-size: 30px;
-    top: 80px;
-    position: absolute;
-    left: 300px;
     padding: 10px;
     border-radius: 12px;
     opacity: 0;
+    margin-left: 12%;
+    margin-top: 3%;
+    z-index: -1;
 }
 
 .big:hover .text {
@@ -50,7 +44,6 @@ body {
 .mini {
     background-color: rgb(184, 159, 130);
     width: 15%;
-    position: absolute;
     height: 100%;
     left: 0;
     z-index: -2;
@@ -59,7 +52,6 @@ body {
 .minitop {
     background-color: rgb(110, 93, 73);
     width: 80%;
-    position: absolute;
     height: 10%;
     left: 250px;
     z-index: -1;
@@ -70,26 +62,25 @@ body {
 
 .text2 {
     background-color: rgb(141, 124, 105);
-    width: 30%;
+    width: 30.6%;
     font-size: 30px;
-    top: 415px;
-    position: absolute;
-    left: 300px;
-    padding: 10px;
     border-radius: 12px;
     opacity: 0;
+    margin-left: 12%;
+    margin-top: 2%;
+    z-index: -1;
 }
 
 .text3 {
     background-color: rgb(141, 124, 105);
     width: 30%;
     font-size: 30px;
-    top: 720px;
-    position: absolute;
-    left: 300px;
     padding: 10px;
     border-radius: 12px;
     opacity: 0;
+    margin-left: 12%;
+    margin-top: 2%;
+    z-index: -1;
 }
 
 .big:hover .text2 {
@@ -107,20 +98,17 @@ body {
 .polosa {
     background-color: rgb(92, 77, 60);
     width: 30.5%;
-    position: absolute;
     height: 2%;
-    left: 202px;
     z-index: -1;
     opacity: 0.7;
     border-radius: 5px;
-    bottom: 433px;
     opacity: 0;
+    margin-top: 10%;
 }
 
 .polosatop {
     background-color: rgb(92, 77, 60);
     width: 30.5%;
-    position: absolute;
     height: 2%;
     left: 202px;
     z-index: -1;
@@ -131,7 +119,6 @@ body {
 }
 
 .sticker {
-    position: absolute;
     right: 290px;
     width: 4%;
     top: 7px;
@@ -147,4 +134,18 @@ body {
     transform: translate(100px);
     transition: 0.4s;
     opacity: 1;
+}
+
+.main {
+    left: 1180px;
+    font-size: 50px;
+    top: 17px;
+    color:rgb(228, 200, 166); 
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.main:hover {
+ 
+   color:rgb(110, 93, 73);
 }
