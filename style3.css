@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(145, 133, 82);
+}
+
+.grid {
+    opacity: 1;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 50px;
+    grid-template-columns: 5% 11% 13% 20% 5% 20% 13% ;
+    grid-template-rows: 5% 40% 10% 40% 10% 40% ;     
+    transition: 0.5s;
+    }
+        
+.g10 {
+    background: url(https://static.wikia.nocookie.net/tombraider/images/b/be/TR1_box_art.jpg/revision/latest?cb=20120415133939&path-prefix=ru) no-repeat center / cover;
+}
+
+.g11 {
+    padding: 2%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    line-height: 1.6;
+}
+
+.g27 {
+    padding: 2%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    line-height: 1.6;
+}
+
+.g44 {
+    background: url(https://static.wikia.nocookie.net/tombraider/images/7/7c/TR3_box_art_PS.jpg/revision/latest?cb=20120415082204&path-prefix=ru) no-repeat center / cover;;
+}
+
+.g28 {
+    background: url(https://static.wikia.nocookie.net/tombraider/images/3/31/Tombraider2.jpg/revision/latest?cb=20120501125701&path-prefix=ru) no-repeat center / cover;
+}
+
+.g45 {
+    padding: 2%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    line-height: 1.6;
+}
+
+.grid2 {
+    margin-left: 10%;
+    opacity: 0;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 50px;
+    grid-template-columns: 5% 11% 13% 20% 5% 20% 13% ;
+    grid-template-rows: 5% 35% 7% 35% 7% 35% ;     
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.left12 {
+    position: absolute;
+    right: -10px;
+    background-color: rgb(180, 177, 155);
+    width: 5%;
+    height: 90%;
+    z-index: 5;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.left12:hover ~ .grid2{
+    opacity: 1;
+   transition: 0.5s;
+   transform: translate(-18%);
+}
+
+.left12:hover ~ .grid {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.g13 {
+    padding: 2%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    line-height: 1.6;
+}
+
+.g14 {
+    background: url(https://static.wikia.nocookie.net/tombraider/images/9/94/Tombraider4.jpg/revision/latest?cb=20120501130611&path-prefix=ru) no-repeat center / cover;   
+}
+
+.g24 {
+    background: url(https://static.wikia.nocookie.net/tombraider/images/0/0c/Tombraider5.jpg/revision/latest?cb=20120501131013&path-prefix=ru) no-repeat center / cover;
+}
+
+.g25 {
+    padding: 2%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    line-height: 1.6;
+}
+
+.g47 {
+    padding: 2%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    line-height: 1.6;
+}
+
+.g48 {
+    
+    background: url(https://static.wikia.nocookie.net/tombraider/images/2/28/TRA_Boxart.jpg/revision/latest?cb=20120413055142&path-prefix=ru) no-repeat center / cover;
+}
+
+.g111 {
+    grid-area: 1/1/8/2;
+    background-color: rgb(80, 71, 45);
+    transition: 0.5s;
+    border-radius: 12px;
+}
+
+.main1 {
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   margin-top: 150%;
+
+}
+
+.decor {
+    text-decoration: none;
+    color: inherit;
+    color: aliceblue;
+}
+
+.g111:hover {
+    background-color: rgb(143, 133, 101);
+    transition: 0.5s;
+    border: 10px solid rgb(51, 37, 19);
+}
