@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +43,7 @@
     text-align: center;
     justify-content: center;
     margin-left: -150%;
+    margin-top: -30%;
     
 }
 
@@ -76,14 +76,16 @@
 .contall:hover .maintext {
     opacity: 0.99;
     transition: 2s;
-    top: 480px;
+    transform: translate(0, 80px);
 }
 
 .contall:hover .minitext {
     opacity: 0.6;
     transition: 2s;
     top: 630px;
+    transform: translate(0, 80px);
 }
+
 
 .left1:hover {
     transform: translate(60%);
@@ -176,4 +178,6 @@
     margin-left: 10%;
     
 }
+
+
 
