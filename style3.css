@@ -14,6 +14,9 @@ body {
         
 .g10 {
     background: url(TR1_box_art.webp) no-repeat center / cover;
+    border-radius: 7px;
+    border: 12px solid rgb(90, 79, 63);
+
 }
 
 .g11 {
@@ -22,6 +25,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     line-height: 1.6;
+    border: 12px solid rgb(78, 70, 58);
 }
 
 .g27 {
@@ -30,14 +34,21 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     line-height: 1.6;
+    border: 12px solid rgb(78, 70, 58);
 }
 
 .g44 {
-    background: url(TR3_box_art_PS.webp) no-repeat center / cover;;
+    background: url(TR3_box_art_PS.webp) no-repeat center / cover;
+    border-radius: 7px;
+    border: 12px solid rgb(78, 70, 58);
+
 }
 
 .g28 {
     background: url(Tombraider2.webp) no-repeat center / cover;
+    border-radius: 7px;
+    border: 12px solid rgb(78, 70, 58);
+
 }
 
 .g45 {
@@ -46,6 +57,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     line-height: 1.6;
+    border: 12px solid rgb(78, 70, 58);
 }
 
 .grid2 {
@@ -94,14 +106,21 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     line-height: 1.6;
+    border: 12px solid rgb(78, 70, 58);
 }
 
 .g14 {
     background: url(Tombraider4.webp) no-repeat center / cover;   
+    border-radius: 7px;
+    border: 12px solid rgb(78, 70, 58);
+
 }
 
 .g24 {
     background: url(Tombraider5.webp) no-repeat center / cover;
+    border-radius: 7px;
+    border: 12px solid rgb(78, 70, 58);
+
 }
 
 .g25 {
@@ -110,6 +129,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     line-height: 1.6;
+    border: 12px solid rgb(78, 70, 58);
 }
 
 .g47 {
@@ -118,11 +138,14 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     line-height: 1.6;
+    border: 12px solid rgb(78, 70, 58);
 }
 
 .g48 {
     
     background: url(TRA_Boxart.webp) no-repeat center / cover;
+    border-radius: 7px;
+    border: 12px solid rgb(78, 70, 58);
 }
 
 .g111 {
@@ -130,13 +153,14 @@ body {
     background-color: rgb(80, 71, 45);
     transition: 0.5s;
     border-radius: 12px;
+    
 }
 
 .main1 {
    text-align: center;
    justify-content: center;
    display: flex;
-   margin-top: 150%;
+   margin-top: 250%;
 
 }
 
@@ -150,4 +174,64 @@ body {
     background-color: rgb(143, 133, 101);
     transition: 0.5s;
     border: 10px solid rgb(51, 37, 19);
+}
+
+.g15 {
+    background: url(ss_dc9e004b12f7e5a682674aca6650ced4dbde9026.1920x1080.jpg) no-repeat center / cover;
+    border-radius: 7px;
+}
+
+.g20 {
+    background: url(11_LaunchScreenshot.webp) no-repeat center / cover;
+    border-radius: 7px;
+}
+
+.g0 {
+     background: url(0.jpg) no-repeat center / cover;
+    border-radius: 7px;
+}
+
+.g123 {
+     background: url(images.jpg) no-repeat center / cover;
+    border-radius: 7px;
+}
+
+.g90 {
+     background: url(Tomb-Raider-2-widescreen.webp) no-repeat center / cover;
+    border-radius: 7px;
+}
+
+.g343 {
+     background: url(LaraFirst.jpg) no-repeat center / cover;
+    border-radius: 7px;
+}
+
+.g78 {
+    background: url(capsule_616x353.jpg) no-repeat center / cover;
+    border-radius: 7px;
+}
+
+.g79 {
+    background: url(ss_a3302f2d5ec4fbbac1e88486efa65077632462f9.1920x1080.jpg) no-repeat center / cover;
+    border-radius: 7px;
+}
+
+.g80 {
+    background: url(MV5BOTVkODg0NzMtZmI4NC00YmJkLThiZGUtNTA0ODQwZTI4MTUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg) no-repeat center / cover;
+    border-radius: 7px;
+}
+
+.g81 {
+    background: url(splash-cover.webp) no-repeat center / cover;
+    border-radius: 7px;
+}
+
+.g909 {
+    background: url(56603f3973a6b3b6_original.jpg) no-repeat center / cover;
+    border-radius: 7px;
+}
+
+.g92 {
+    background: url(apps.20674.63703957641232998.177fdfdc-28b2-4e28-b9e3-f1f92be54d20.jpg) no-repeat center / cover;
+    border-radius: 7px;
 }
